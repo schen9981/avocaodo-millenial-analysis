@@ -17,6 +17,23 @@ income, consume more avocados despite prices increases in recent years.
 This directory contains our cleaned data, in csv files and sqlite databases. This
 includes demographic data (ie. population, age, gender) and avocado consumption data.
 
+The main database file used for analysis is avocado_project.db. This database
+file contains four tables:
+
+1. demographic - this contains the accumulated populations for 2016, 2017, and
+2018 for each region, by age and sex. That is, for one row of the table, this gives
+the total number (in 2016, 2017, and 2018) of people of that age and that gender
+for the specific region.
+
+2. hab2016 - this contains the accumulated avocado consumption statistics for
+each region in 2016.
+
+3. hab2017 - this contains the accumulated avocado consumption statistics for
+each region in 2017.
+
+4. hab2018 - this contains the accumulated avocado consumption statistics for
+each region in 2018.
+
 ### Data Spec
 
 This directory contains screenshots of our data sample, as well as a more detailed
