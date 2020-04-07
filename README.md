@@ -28,6 +28,6 @@ other information laying the foundation of our analysis.
 This directory contains the python files used to combine our datasets so that
 analysis and statistical tests can be performed.
 
-## Analysis
+### Analysis
 
 This directory contains the python files used to perform the analysis of our data.
