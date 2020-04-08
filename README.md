@@ -54,4 +54,19 @@ This directory contains the python files used to perform the analysis of our dat
 * Jupyter notebook for analysis
     * Intall Jupyter here: https://jupyter.org/install
     * Tutorial: https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+* GitHub commands
+    * After making change that you made on your local computer and want everyone else to see
+        * git add -A
+        * git commit -m “description of what changes you made”
+        * git push
+
+    * If someone else makes changes that you want on your local computer
+        * git pull
+    * If someone else makes a change that you need, but you have local changes
+        * git stash
+        * git pull
+        * git stash pop
+    * More detailed tutorial: https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
+
+
 
