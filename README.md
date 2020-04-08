@@ -48,3 +48,10 @@ analysis and statistical tests can be performed.
 ### Analysis
 
 This directory contains the python files used to perform the analysis of our data.
+
+## Environment & Dependencies
+* sqlite database (instructions on Data Science course site)
+* Jupyter notebook for analysis
+    * Intall Jupyter here: https://jupyter.org/install
+    * Tutorial: https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+
