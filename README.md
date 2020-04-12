@@ -34,6 +34,8 @@ each region in 2017.
 4. hab2018 - this contains the accumulated avocado consumption statistics for
 each region in 2018.
 
+5. joined_data - this is the joined dataset that merges demographic and avocado data, by year and region; we used this for our analysis
+
 ### Data Spec
 
 This directory contains screenshots of our data sample, as well as a more detailed
