@@ -88,17 +88,29 @@
           consumption data that we then used to join the tables and perform analysis. </p>
 
           <p> We also used population data to compute and store the per capita avocado sales for each region.
-              Running tests on per capita data makes more sense then running tests on lump-sum data because each region has a 
+              Running tests on per capita data makes more sense then running tests on lump-sum data because each region has a
               different number of consumers, which is a confounding variable when analyzing the relationship between
               the <i>proportion</i> of millenials and number of avocados sold.
           </p>
 
           <h4> Statistical Tests </h4>
 
-          <p> [TODO] Why did you use this statistical test or ML algorithm? Which other tests
-          did you consider or evaluate? How did you measure success or failure?
-          Why that metric/value? What challenges did you face evaluating the model?
-          Did you have to clean or restructure your data? </p>
+          <p> We used a simple linear regression because it served as a way to
+            see the extent of effect our independent variable (millennial population
+            percentage) had on our dependent variable (avocados sold per capita), and in what
+            way our input variable impacted the output variable. We considered running a
+            two-sample t-Test, but we had trouble determining which 2 samples, given our
+            current data sets, we would run it on in order to test our hypothesis. Success
+            would be measured by observing the R-squared value and the regression coefficient,
+            as a relatively high R-squared value provides an estimate of the strength of the
+            relationship between our model and the dependent variable and a  positive regression
+            coefficient would indicate that as the value of the independent variable increases,
+            the mean of the dependent variable also tends to increase. <p>
+
+          <p> One challenge we faced while evaluating the model was since our initial data
+            points consisted of 8 regions, it would be hard to control appropriately.
+            Therefore, we may need to restructure our data by trying to get city-level
+            data and then expand our analysis accordingly. <p>
 
           <p> A summary of our linear regression run on each year is below: (2016, 2017, 2018) </p>
 
@@ -117,30 +129,33 @@
           <p> Based on the simple linear regression and the R-squared values,
             we can see that the variability in millennial population percentage
             explains a good portion of the variability in the per capita avocados
-            sold data around its mean. </p>
+            sold data around its mean. Additionally, a positive regression
+            coeffeicient indicates that as our independent variable increases,
+            the mean of the dependent variable also tends to increase.
+        </p>
 
           <p> One challenge of our project is controlling for confounding variables.
-            Consumer preferences are influenced by a ton of different factors, and age is 
-            only one of them. It's also tough to control for variables when our regions 
+            Consumer preferences are influenced by a ton of different factors, and age is
+            only one of them. It's also tough to control for variables when our regions
             cover such large areas.</p>
-            
+
           <p>
-            We're hoping to analyze these factors more thoroughly in the 
-            coming weeks, ideally by finding more fine-grained region data. For now, 
-            our tests are more suitable for testing correlation than causation. Perhaps 
-            avocado sales are closely tied with disposable income levels and millenials 
-            happen to have the highest level of disposable income. Or, pehaps avocado sales 
-            are closely linked with the prevalence of "health-campaigns" advertising the 
-            fruit as a super-food and millenials happen to be most-targetted. Either way, 
-            we think our tests offers some support to our hypothesis, although we can't 
+            We're hoping to analyze these factors more thoroughly in the
+            coming weeks, ideally by finding more fine-grained region data. For now,
+            our tests are more suitable for testing correlation than causation. Perhaps
+            avocado sales are closely tied with disposable income levels and millenials
+            happen to have the highest level of disposable income. Or, pehaps avocado sales
+            are closely linked with the prevalence of "health-campaigns" advertising the
+            fruit as a super-food and millenials happen to be most-targetted. Either way,
+            we think our tests offers some support to our hypothesis, although we can't
             necessarily claim a causal relationship.
           </p>
 
           <h4> Visualization </h4>
 
-          <p>We first made a 3D bar graph to visualize the relationship between avocado sales, 
+          <p>We first made a 3D bar graph to visualize the relationship between avocado sales,
             region, and year. This is an exploratory plot and gave us a general sense of our
-            avocado data looked like. 
+            avocado data looked like.
           </p>
 
           <br><img src="sales_region_year_3d.png" width=60%></img>
