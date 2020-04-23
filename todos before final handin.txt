@@ -1,0 +1,53 @@
+
+### masterlist of todos before final handin ###
+
+== data ==
+* add city level data and rejoin to get another table with more fine-grained regions
+  * note that we may only have millennial data for some years
+  * need to make sure we’re matching demographic data to the right year
+  * alternatively, we can just take one year as the benchmark and make the assumption that consumption/demographics remain constant over a three year window
+
+
+== analysis ==
+* run panel data regression on our old data in order to parse out fixed-effects and fixed time effects
+
+* run single linear regression on new fine-grained region data
+  * figure out ways to control for unknown effects
+  * instrumental variable analysis 
+  * try introducing non linearity
+
+* run multiple regression on new fine-grained region data
+  * could be interesting to see how price affects consumption
+  * we already have price data, so this is convenient
+
+* run t- and F-tests to determine significance of dependent variables
+
+* run simple kmeans clustering on new fine-grained data (we won’t have time as a dimension anymore, so clustering makes sense now to see how things clump together in the scatterplot)
+
+
+== visualizations, graphs, & tables ==
+* make a summary table to be included in the poster (indep var, dep vars/regressors, definition of each one, number of datapoints, mean, median, stdev of each one)
+
+* visualize new fine-grained region data (can reuse same script for previous plots)
+  * visualize clusters on scatterplots
+  * exploratory bar graphs
+
+* visualize best fit lines after running regressions
+  * figure out how to plot vertical residual lines
+
+
+== interpretations & written analysis ==
+* reject or accept our hypothesis? why?
+* what were our assumptions?
+* confounding variables?
+* correlation vs causation?
+* comb through ellie’s hypothesis testing and visualization slides to figure out what she wants us to include
+  * IMPORTANT (SHOULD DO FIRST)
+  * discussion of p-hacking and what we did to prevent that
+
+
+== resources to check out ==
+* this site seems to walk through the main components of a linear regression, hypothesis testing question: https://stattrek.com/regression/slope-test.aspx
+* https://cs.brown.edu/courses/csci1951-a/slides/ 
+  * lectures 8-11
+
