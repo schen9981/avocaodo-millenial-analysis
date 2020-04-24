@@ -27,6 +27,7 @@
 * MINNA’S SUGGESTIONS: run tests that might refute our result
   * e.g. run it on boomer population, total population too
   * make sure we address all parts of our hypothesis
+  * colour-code data in scatterplots by year (or 3D scatterplot)?
 
 
 == visualizations, graphs, & tables ==
