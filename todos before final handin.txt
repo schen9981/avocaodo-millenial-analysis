@@ -24,6 +24,9 @@
 
 * run simple kmeans clustering on new fine-grained data (we won’t have time as a dimension anymore, so clustering makes sense now to see how things clump together in the scatterplot)
 
+* minna’s suggestion: run tests that might refute our result
+  * e.g. run it on boomer population, total population too
+
 
 == visualizations, graphs, & tables ==
 * make a summary table to be included in the poster (indep var, dep vars/regressors, definition of each one, number of datapoints, mean, median, stdev of each one)
