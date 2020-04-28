@@ -1,4 +1,4 @@
-# CSCI 1951a Data Science Final Project: Avocados and Millenials
+# Avocados and Millenials
 
 This projects seeks to explore the trends in avocado consumption in the US,
 in connection with millenials, a group classified as those born between
