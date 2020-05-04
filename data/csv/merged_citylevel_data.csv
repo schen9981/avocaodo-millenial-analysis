@@ -1,4 +1,4 @@
-﻿city,percent_millenial,total population,per cap consumption,per cap dollar sales,units_current_year,dollars_current_year,asp_current_year,year
+﻿city,percent_millenial,total_population,per_cap_consumption,per_cap_dollar_sales,units_current_year,dollars_current_year,asp_current_year,year
 Albany,22,"97,726",56.46435851,77.4652505,5518035.9,7570369.07,19.37083386,2017
 Atlanta,26,"491,763",57.86912403,73.63181958,28457894.04,36209404.49,17.98609968,2017
 Baltimore/Washington,23,"693,972",64.45431187,94.50856101,44729487.72,65586295.1,20.57924289,2017
