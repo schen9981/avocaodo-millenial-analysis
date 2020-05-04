@@ -18,23 +18,35 @@ This directory contains our cleaned data, in csv files and sqlite databases. Thi
 includes demographic data (ie. population, age, gender) and avocado consumption data.
 
 The main database file used for analysis is avocado_project.db. This database
-file contains four tables:
+file contains the following tables:
 
 1. demographic - this contains the accumulated populations for 2016, 2017, and
 2018 for each region, by age and sex. That is, for one row of the table, this gives
 the total number (in 2016, 2017, and 2018) of people of that age and that gender
 for the specific region.
 
-2. hab2016 - this contains the accumulated avocado consumption statistics for
+2. hab2016_region - this contains the accumulated avocado consumption statistics for
 each region in 2016.
 
-3. hab2017 - this contains the accumulated avocado consumption statistics for
+3. hab2016_citystate - this contains the avocado consumption statistics for
+city and states in 2016.
+
+4. hab2017_region - this contains the accumulated avocado consumption statistics for
 each region in 2017.
 
-4. hab2018 - this contains the accumulated avocado consumption statistics for
+5. hab2017_citystate - this contains the avocado consumption statistics for
+city and states in 2017.
+
+6. hab2018_region - this contains the accumulated avocado consumption statistics for
 each region in 2018.
 
-5. joined_data - this is the joined dataset that merges demographic and avocado data, by year and region; we used this for our analysis
+7. hab2018_citystate - this contains the avocado consumption statistics for
+city and states in 2018.
+
+8. millenial_percentages - this contains the percent of the population that is millenials in each
+city/state listed in the avocado consumption data
+
+9. joined_data - this is the joined dataset that merges demographic and avocado data, by year and region; we used this for our analysis
 
 ### Data Spec
 
@@ -69,6 +81,3 @@ This directory contains the python files used to perform the analysis of our dat
         * git pull
         * git stash pop
     * More detailed tutorial: https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
-
-
-
